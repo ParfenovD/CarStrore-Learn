@@ -1,0 +1,152 @@
+.header
+    background-color: #212121
+
+    &-input
+        display: none
+        &__img
+            cursor: pointer
+
+.container
+    max-width: 1170px
+    margin: auto
+
+.top-block
+    display: flex
+    justify-content: flex-end
+    padding-top: 18px
+    padding-bottom: 18px
+    align-items: center
+    border-bottom: 2px solid #595959
+
+.user-link
+    color: #ff3448
+    margin-right: 35px
+    text-decoration: none
+    position: relative
+    &:last-child
+        padding-right: 27px
+        border-right: 2px solid #595959
+    &:after
+        margin-top: 5px
+        display: block
+        position: absolute
+        left: 0
+        width: 0
+        height: 1px
+        background-color: #fff
+        content: ''
+        transition: width 0.3s ease-out
+    &:hover
+        text-decoration: none
+    &:hover:after
+        width: 100%
+.input-bottom
+    display: inline
+
+.bottom-block
+    padding-top: 15px
+.header-title
+    font-size: 45px
+    font-weight: 600
+    color: #ffffff
+    cursor: pointer
+.header-text
+    color: #ffffff
+    font-size: 15px
+    font-weight: 400
+    text-transform: uppercase
+    letter-spacing: 4.5px
+
+.text_red
+    color: #ff3448
+
+.bottom-block
+    display: flex
+    justify-content: space-between
+    padding-bottom: 20px
+
+.left-block
+    display: flex
+
+.header-phone
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    color: #fff
+    font-size: 20px
+    font-weight: 700
+    text-decoration: none
+    text-transform: uppercase
+.phone__img
+    margin-right: 10px
+.nowdate
+    display: block
+    margin-top: 20px
+    color: #a2a2a2
+    font-size: 14px
+    font-weight: 400
+    text-transform: uppercase
+
+.user-buttons
+    margin-left: 60px
+.user-button
+    background-color: transparent
+    border: none
+    color: #fff
+    font-size: 15px
+    font-weight: 700
+    text-transform: uppercase
+    border-left: 2px solid #595959
+    padding-right: 19px
+    padding-left: 19px
+    padding-top: 5px
+    padding-bottom: 2px
+    outline: none
+    cursor: pointer
+    position: relative
+    &:after
+        margin-top: 15px
+        display: block
+        position: absolute
+        left: 0
+        width: 0
+        height: 1px
+        background-color: #595959
+        content: ''
+        transition: width 0.3s ease-out
+    &:hover
+        text-decoration: none
+    &:hover:after
+        width: 100%
+
+.button__img
+    margin-left: auto
+    margin-right: auto
+    display: block
+    margin-bottom: 10px
+
+.navmenu
+    background-color: #030303
+    padding-top: 20px
+    padding-bottom: 18px
+.menu-list
+    margin: 0
+    padding: 0
+    list-style-type: none
+    padding-left: 10px
+    &__item
+        display: inline
+    &__link
+        text-decoration: none
+        text-transform: uppercase
+        margin-right: 40px
+        color: #ffff
+        font-size: 15px
+        font-weight: 700
+        &:hover
+            color: #ff3448
+
+.bugatti
+    display: block
+    width: 100%
+    object-fit: cover
